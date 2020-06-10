@@ -1,0 +1,13 @@
+autopep8
+behave
+invoke
+jsonlint
+pycodestyle
+pylint
+pytest
+pytest-bdd
+requests
+shovel
+virtualenv
+yamllint
+zeep
