@@ -15,22 +15,29 @@ Requirements	README.md	/^## Requirements$/;"	s	chapter:Python BDD Testing Exampl
 Setup	README.md	/^## Setup$/;"	s	chapter:Python BDD Testing Examples
 TestFixture	features/steps/calculator_addition.py	/^class TestFixture:  # pylint: disable=too-few-public-methods$/;"	c
 TestFixture	features/steps/calculator_subtract.py	/^class TestFixture:  # pylint: disable=too-few-public-methods$/;"	c
+ThingFixture	tests/calculator_addition_test.py	/^class ThingFixture:  # pylint: disable=too-few-public-methods$/;"	c
+ThingFixture	tests/calculator_subtraction_test.py	/^class ThingFixture:  # pylint: disable=too-few-public-methods$/;"	c
 Usage	README.md	/^## Usage$/;"	s	chapter:Python BDD Testing Examples
 __init__	features/steps/calculator_addition.py	/^    def __init__(self):$/;"	m	class:TestFixture
 __init__	features/steps/calculator_subtract.py	/^    def __init__(self):$/;"	m	class:TestFixture
+__init__	tests/calculator_addition_test.py	/^    def __init__(self):$/;"	m	class:ThingFixture
+__init__	tests/calculator_subtraction_test.py	/^    def __init__(self):$/;"	m	class:ThingFixture
 add_stuff	features/steps/calculator_addition.py	/^def add_stuff(context):$/;"	f
-added_together	tests/calculator_steps_test.py	/^def added_together():$/;"	f
-equal_10	tests/calculator_steps_test.py	/^def equal_10():$/;"	f
-result_equals_5	tests/calculator_steps_test.py	/^def result_equals_5():$/;"	f
-subtracting_5_from_10	tests/calculator_steps_test.py	/^def subtracting_5_from_10():$/;"	f
-test_addition_works	tests/calculator_steps_test.py	/^def test_addition_works():$/;"	f
-test_subtraction_works	tests/calculator_steps_test.py	/^def test_subtraction_works():$/;"	f
+added_together	tests/calculator_addition_test.py	/^def added_together():$/;"	f
+equal_10	tests/calculator_addition_test.py	/^def equal_10():$/;"	f
+pytest cache directory	.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
+result_equals_5	tests/calculator_subtraction_test.py	/^def result_equals_5():$/;"	f
+subtracting_5_from_10	tests/calculator_subtraction_test.py	/^def subtracting_5_from_10():$/;"	f
+test_addition_works	tests/calculator_addition_test.py	/^def test_addition_works():$/;"	f
+test_subtraction_works	tests/calculator_subtraction_test.py	/^def test_subtraction_works():$/;"	f
 tf	features/steps/calculator_addition.py	/^tf = TestFixture  # pylint: disable=invalid-name$/;"	v
 tf	features/steps/calculator_subtract.py	/^tf = TestFixture  # pylint: disable=invalid-name$/;"	v
+tf	tests/calculator_addition_test.py	/^tf = ThingFixture  # pylint: disable=invalid-name$/;"	v
+tf	tests/calculator_subtraction_test.py	/^tf = ThingFixture  # pylint: disable=invalid-name$/;"	v
 the_given	features/steps/calculator_subtract.py	/^def the_given(context):$/;"	f
 the_result	features/steps/calculator_addition.py	/^def the_result(context):$/;"	f
 the_setup	features/steps/calculator_addition.py	/^def the_setup(context):$/;"	f
 the_then	features/steps/calculator_subtract.py	/^def the_then(context):$/;"	f
 the_when	features/steps/calculator_subtract.py	/^def the_when(context):$/;"	f
-two_numbers_10_and_5	tests/calculator_steps_test.py	/^def two_numbers_10_and_5():$/;"	f
-we_have_two_numbers_5_and_5	tests/calculator_steps_test.py	/^def we_have_two_numbers_5_and_5():$/;"	f
+two_numbers_10_and_5	tests/calculator_subtraction_test.py	/^def two_numbers_10_and_5():$/;"	f
+we_have_two_numbers_5_and_5	tests/calculator_addition_test.py	/^def we_have_two_numbers_5_and_5():$/;"	f
