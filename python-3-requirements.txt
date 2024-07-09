@@ -47,4 +47,4 @@ wcwidth==0.2.4
 wrapt==1.12.1
 yamllint==1.23.0
 zeep==3.4.0
-zipp==3.1.0
+zipp==3.19.1
